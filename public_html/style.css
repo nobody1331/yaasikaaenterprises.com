@@ -1,0 +1,1147 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+
+.navbar-brand {
+  align-items: center;
+}
+
+.navbar {
+  background-color: white;
+
+  /* border-bottom: 2px solid  brown !important;; */
+}
+
+/* .navbar ul li a {
+  font-size: 1.1rem;
+  margin-left: 1.3rem;
+} */
+
+.navbar > ul > li > a {
+  font-size: 2rem !important;
+  margin-left: 1.3rem !important;
+}
+
+.navbar ul li a:hover {
+  color: brown !important;
+}
+
+.h-font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.navbar > ul > .dropdown-menu > li > a {
+  margin-left: 0; /* Reset the margin for dropdown menu items */
+}
+
+/* home page design */
+
+.carousel-inner {
+  position: relative;
+  height: 700px; /* Adjust the height as needed */
+  align-items: center !important;
+}
+
+.carousel-item {
+  position: relative;
+  height: 100%;
+  align-items: center !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-13%, -13%);
+  text-align: center !important;
+  width: 100%;
+  z-index: 1;
+  font-size: 2.1rem !important;
+  font-family: "Spicy Rice", cursive;
+  color: white !important;
+}
+
+.homesection1 {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("images/home1.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.homesection1 h2 {
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.homesection1 p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.homesection1 .stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homesection1 .item a{
+  text-decoration: none !important;
+}
+
+.homesection1 .item h5 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+.homesection1 .item h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+
+
+/* .homesection1 .homecontent1 .item {
+  border-top: #9f4103 3px solid;
+  border-right: #9f4103 3px solid;
+  border-bottom:#f4b323 3px solid;
+  border-left: #f4b323 3px solid;
+  transition: border-color 0.3s ease;
+} */
+
+.homesection2 {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+
+.homesection2 .image-container {
+  position: relative;
+}
+
+.homesection2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.homesection2 .overlay:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the background color and opacity as desired */
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.homesection2 .ovtext2 {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.homesection2 .ovtext2 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Spicy Rice", cursive;
+  color: white;
+}
+
+.homesection2 .ovtext2 a {
+  color: white;
+  font-weight: bold;
+  background-color: #f4b323;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.homesection3 {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-image: url("images/home3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* .homesection3 video {
+  width: 100%;
+  height: 10vh;
+  max-height: calc(50vh - 50px); /* Adjust the subtraction value as needed */
+  /* object-fit: cover;
+} */ 
+
+.overlay-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+.homesection5 {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homesection5 .homecontent5 h4 {
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.homesection5 .homecontent5 .stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homesection5 .homecontent5 p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.homesection6 {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homesection6 .homecontent6 h4 {
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.homesection6 .homecontent6 .name {
+  color: #f4b323;
+  font-size: 1.5rem;
+}
+
+.homesection6 .homecontent6 .stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homesection6 .homecontent6 p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.homesection4 {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+
+.homesection4 .image-container {
+  position: relative;
+}
+
+.homesection4 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.homesection4 .overlay:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the background color and opacity as desired */
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.homesection4 .ovtext2 {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.homesection4 .ovtext2 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Spicy Rice", cursive;
+  color: white;
+}
+
+.homesection4 .ovtext2 a {
+  color: white;
+  font-weight: bold;
+  background-color: #f4b323;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* store section design */
+
+.storesection1 img {
+  height: 65vh;
+}
+
+#storeid {
+  align-items: center;
+  text-align: center;
+  top: 78%;
+}
+
+.storesection1 p {
+  font-family: "Spicy Rice", cursive;
+  font-size: 2.3rem;
+  color: crimson;
+}
+
+.storesection1 a {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: brown;
+  text-decoration: none;
+}
+
+.catdesign .card h4 {
+  padding: 0.8rem;
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+  border-left: #f4b323 4px solid;
+}
+
+.catdesign .card ul {
+  padding: 0.5rem;
+  background-color: #fff6e4;
+}
+.catdesign .card ul:hover {
+  background-color: #ffd374;
+}
+.catdesign .card ul li {
+  list-style: none !important;
+}
+
+.catdesign .card a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.storesection2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  /* background-image: url("images/store2-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover !important; */
+
+}
+
+
+
+.storesection2 h5 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #9f4103;
+}
+
+.storesection2 p {
+  font-family: 'Times New Roman', Times, serif;
+  color: #9f4103;
+  background-color: #ffe7b4;
+}
+
+.storesection2 a{
+  text-decoration: none;
+}
+
+
+
+
+/* product-view page design */
+
+.pv1 {
+  height: 25vh;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: #ffa467;
+}
+
+.pv1 a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.pv2 {
+  padding: 3rem !important;
+  background-image: url("images/pv1.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.pv2 h4 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+.pv2 h5 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.pv2 p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.pv2 h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: #9f4103;
+}
+
+.cp1 {
+  height: 25vh;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: #ffa467;
+}
+
+.cp1 a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.cp2 h3 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+.cp2 h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.cp2 {
+  padding: 3rem !important;
+  background-image: url("images/home1.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.co1 {
+  height: 25vh;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: #ffa467;
+}
+
+.co1 a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.co2 {
+  padding: 3rem !important;
+}
+
+.co2 h4 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+.mo1 {
+  height: 25vh;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: #ffa467;
+}
+
+.mo1 a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.mo2 {
+  padding: 2rem !important;
+}
+
+.vo1 {
+  height: 25vh;
+  padding-top: 9rem;
+  text-align: center;
+  background-color: #ffa467;
+}
+
+.vo1 a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.vo2 {
+  padding: 2rem !important;
+}
+
+.vo2 h4 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+}
+
+/* about us page design */
+
+.aboutussection1 img {
+  height: 58vh;
+}
+
+#aboutusid {
+  align-items: center;
+  text-align: center;
+}
+
+.aboutussection1 p {
+  font-family: "Spicy Rice", cursive;
+  font-size: 2.3rem;
+  color: black;
+}
+
+.aboutussection1 a {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: brown;
+  text-decoration: none;
+}
+
+.aboutussection2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutussection2 .aboutuscontent {
+  width: 50%;
+}
+
+.aboutussection2 img {
+  width: 40%;
+}
+
+.aboutussection2 .aboutuscontent h4 {
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.aboutussection2 .aboutuscontent p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.aboutussection3 {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutussection3 .aboutuscontent {
+  width: 50%;
+}
+
+.aboutussection3 img {
+  width: 40%;
+}
+
+.aboutussection3 .aboutuscontent h4 {
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.aboutussection3 .aboutuscontent p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.aboutussection4 {
+  align-items: center;
+}
+
+.aboutussection4 h4 {
+  font-family: "Times New Roman", Times, serif;
+  color: brown;
+  font-weight: bolder;
+}
+
+.aboutussection4 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aboutussection4 {
+  padding-top: 3rem;
+}
+
+.aboutussection5 {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutussection5 .aboutuscontent {
+  width: 50%;
+}
+
+.aboutussection5 img {
+  width: 40%;
+}
+
+.aboutussection5 .aboutuscontent h4 {
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.aboutussection5 .aboutuscontent p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* contactus page design */
+
+.contactussection1 img {
+  height: 64vh;
+}
+
+#contactusid {
+  align-items: center;
+  text-align: center;
+}
+
+.contactussection1 p {
+  font-family: "Spicy Rice", cursive;
+  font-size: 2.3rem;
+  color: white;
+}
+
+.contactussection1 a {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contactussection2 {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactussection2 .contactuscontent h2 {
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  color: rgb(189, 72, 72);
+}
+
+.contactussection2 .contactuscontent p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.contactussection2 .contactuscontent .stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactussection3 .card1 .bi-telephone-fill {
+  color: white;
+  background-color: #9f4103;
+  border-radius: 50%;
+  padding: 0.9rem;
+}
+
+.contactussection3 .card1 .bi-telephone-fill:hover {
+  background-color: #f4b323;
+  color: black;
+}
+
+.contactussection3 .card1 h5 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+  padding-top: 1.8rem;
+}
+
+.contactussection3 .card1 h6 {
+  color: black;
+  font-size: 1rem;
+}
+
+.contactussection3 .card2 .bi-envelope-fill {
+  color: white;
+  background-color: #9f4103;
+  border-radius: 50%;
+  padding: 0.9rem;
+}
+
+.contactussection3 .card2 .bi-envelope-fill:hover {
+  background-color: #f4b323;
+  color: black;
+}
+
+.contactussection3 .card2 h5 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+  padding-top: 1.8rem;
+}
+
+.contactussection3 .card2 h6 {
+  color: black;
+  font-size: 1rem;
+}
+
+.contactussection3 .card3 .bi-send-fill {
+  color: white;
+  background-color: #9f4103;
+  border-radius: 50%;
+  padding: 0.9rem;
+}
+
+.contactussection3 .card3 .bi-send-fill:hover {
+  background-color: #f4b323;
+  color: black;
+}
+
+.contactussection3 .card3 h5 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+  padding-top: 1.8rem;
+}
+
+.contactussection3 .card3 h6 {
+  color: black;
+  font-size: 1rem;
+}
+
+.contactussection3 .pop {
+  border: 2px solid #9f4103;
+}
+
+.contactussection3 .pop:hover {
+  border: #f4b323 2px solid;
+}
+
+.contactsection4 {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactsection4 .form {
+  padding: 3rem;
+  width: 45%;
+}
+
+.contactsection4 .form h2 {
+  font-family: "Spicy Rice", cursive;
+  color: #9f4103;
+  text-align: center;
+}
+
+.contactsection4 .form form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.contactsection4 .form form input {
+  width: 100%;
+  padding: 15px;
+  border: #9f4103 2px solid;
+  outline: none;
+  margin: 13px 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contactsection4 .form form input:hover {
+  border: #f4b323 2px solid;
+}
+
+.contactsection4 .form form textarea:hover {
+  border: #f4b323 2px solid;
+}
+
+.contactsection4 .form form textarea {
+  width: 100%;
+  padding: 15px;
+  border: #9f4103 2px solid;
+  outline: none;
+  margin: 13px 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contactsection4 .form form button {
+  width: 100%;
+  padding: 12px 0;
+  background: #9f4103;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 13px 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.contactsection4 .form form button:hover {
+  background: #f4b323;
+  color: black;
+}
+
+.contactsection4 .map {
+  width: 50%;
+}
+
+.contactsection4 .map iframe {
+  width: 100%;
+}
+
+/* register form design */
+
+.regformbg {
+  background-image: url("images/regbg.png");
+  background-size: contain;
+}
+
+.loginformbg {
+  background-image: url("images/loginbg.png");
+  background-size: contain;
+}
+
+.registerform {
+  margin-top: 10rem !important;
+}
+
+.registerform .card-header {
+  background-color: #9f4103;
+}
+
+.registerform .card-header h2 {
+  font-family: "Spicy Rice", cursive;
+  text-align: center;
+  align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* login form design */
+
+.loginform {
+  margin-top: 10rem !important;
+}
+
+.loginform .card-header {
+  background-color: #9f4103;
+}
+
+.loginform .card-header h2 {
+  font-family: "Spicy Rice", cursive;
+  text-align: center;
+  align-items: center;
+}
+
+/* footer design */
+
+.footer {
+  padding: 2rem;
+  padding-top: 3rem;
+  background-image: url("images/footerimg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer .footersection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .footersection1 .company h6 {
+  font-family: "Spicy Rice", cursive;
+  color: #f4b323;
+}
+
+.footer .footersection1 .company p {
+  font-weight: bold;
+  color: white;
+}
+
+.footer .footersection1 .links h6 {
+  font-family: "Spicy Rice", cursive;
+  color: #f4b323;
+}
+
+.footer .footersection1 .links a {
+  font-weight: bold;
+  color: white;
+}
+
+.footer .footersection1 .links a:hover {
+  color: #f4b323 !important;
+}
+
+.footer .footersection1 .policy h6 {
+  font-family: "Spicy Rice", cursive;
+  color: #f4b323;
+}
+
+.footer .footersection1 .policy a {
+  font-weight: bold;
+  color: white;
+}
+
+.footer .footersection1 .policy a:hover {
+  color: #f4b323 !important;
+}
+
+.footer .footersection1 .online h6 {
+  font-family: "Spicy Rice", cursive;
+  color: #f4b323;
+}
+
+.footer .footersection1 .online a {
+  font-weight: bold;
+  color: white;
+}
+
+.footer .footersection1 .online a:hover {
+  color: #f4b323 !important;
+}
+
+.footer .footersection1 .hours h6 {
+  font-family: "Spicy Rice", cursive;
+  color: #f4b323;
+}
+
+.footer .footersection1 .hours p {
+  font-weight: bold;
+  color: white;
+}
+
+/**Copyrights page**/
+
+.copy {
+  border-top: 4px solid #ecf0f1;
+  background: #3766f4;
+  padding: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy h3 {
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  font-weight: bold;
+}
+
+.copy a {
+  color: black;
+  text-decoration: none;
+}
+
+.copy a:hover {
+  color: white;
+}
+
+/* policies design */
+
+.footer .ourpolicy h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer .ourpolicy h5 a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer .ourpolicy h5 a:hover {
+  color: rgb(255, 111, 0);
+}
+
+.privacypolicy {
+  padding-top: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.privacypolicy h4 {
+  font-weight: bold;
+  color: darkred;
+}
+
+.privacypolicy ul li {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.refundpolicy {
+  padding-top: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.refundpolicy h4 {
+  font-weight: bold;
+  color: darkred;
+}
+
+.refundpolicy ul li {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.shippingpolicy {
+  padding-top: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 18rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.shippingpolicy h4 {
+  font-weight: bold;
+  color: darkred;
+}
+
+.shippingpolicy ul li {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.termsofservice {
+  padding-top: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.termsofservice h4 {
+  font-weight: bold;
+  color: darkred;
+}
+
+.termsofservice ul li {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+/* policy design end */

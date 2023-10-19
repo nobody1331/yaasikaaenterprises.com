@@ -1,0 +1,326 @@
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    
+  /*pagination design*/
+  
+  .pagination li {
+      padding: 0;
+    }
+
+    .pagination li a {
+      font-size: 14px; /* Adjust the font size as per your requirements */
+      padding: 5px 8px; /* Adjust the padding as per your requirements */
+    }
+
+  /* home page design */
+
+  .carousel-inner {
+    height: auto;
+    align-items: center !important;
+  }
+
+  .carousel-item {
+    height: auto;
+    align-items: center !important;
+  }
+
+  .carousel-item img{
+    height: 63vh;
+  }
+
+  .carousel-caption {
+    top: 73%;
+    left: 50%;
+    transform: translate(-13%, -13%);
+    font-size: 0.7rem !important;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Spicy Rice", cursive;
+    color: #9f4103;
+  }
+
+  .homesection1 {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    align-items: center;
+    justify-content:none;
+  }
+
+
+  .homesection2 .one,.two,.three{
+    margin-bottom: 1rem;
+  }
+
+  .homesection5 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+
+  .homesection5 .homecontent5 p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .homesection6 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .homesection6 .homecontent6 .name {
+    color: #f4b323;
+    font-size: 1.2rem;
+  }
+  
+  .homesection6 .homecontent6 p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+  }
+
+
+  /* about us page design */
+
+  .aboutussection1 img {
+    height: 52vh !important;
+  }
+
+  .aboutussection2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .aboutussection2 .aboutuscontent {
+    width: 100%;
+  }
+
+  .aboutussection2 img {
+    width: 100%;
+  }
+
+  .aboutussection2 .aboutuscontent h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .aboutussection2 .aboutuscontent p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .aboutussection3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .aboutussection3 .aboutuscontent {
+    width: 100%;
+  }
+
+  .aboutussection3 img {
+    width: 100%;
+  }
+
+  .aboutussection3 .aboutuscontent h4 {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .aboutussection3 .aboutuscontent p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+ 
+
+  .aboutussection4 {
+    padding-top: 2rem;
+  }
+
+  .aboutussection5 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .aboutussection5 .aboutuscontent {
+    width: 100%;
+  }
+
+  .aboutussection5 img {
+    width: 100%;
+  }
+
+  .aboutussection5 .aboutuscontent h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .aboutussection5 .aboutuscontent p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* contact us form design */
+
+  .contactussection1 img {
+    height: 58vh !important;
+  }
+
+  .contactsection4 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contactsection4 .form {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .contactsection4 .form h2 {
+    font-size: 1.3rem;
+  }
+
+  .contactsection4 .form form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .contactsection4 .form form input {
+    width: 100%;
+    padding: 12px;
+    border:#9f4103 2px solid;
+    margin: 11px 0;
+    border-radius: 10px;
+    font-size: 0.9rem;
+  }
+
+  .contactsection4 .form form textarea {
+    width: 100%;
+    padding: 12px;
+    border:#9f4103 2px solid;
+    margin: 11px 0;
+    border-radius: 10px;
+    font-size: 0.9rem;
+  }
+
+  .contactsection4 .form form button {
+    width: 100%;
+    padding: 12px 0;
+    background:#9f4103;
+    color: white;
+    font-size: 1rem;
+    margin: 11px 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .contactsection4 .map {
+    padding-top: 2rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .contactsection4 .map iframe {
+    width: 100%;
+  }
+
+  /* product-view page design */
+
+.pv1 {
+  height: 28vh;
+  padding-top: 8.5rem;
+}
+
+.pv2 {
+  padding: 2rem !important;
+}
+
+.pv2 h4 {
+  padding-top: 1.5rem;
+  
+}
+
+
+.mo1 {
+  height: 28vh;
+  padding-top: 8.5rem;
+}
+
+.mo2 {
+  padding: 1rem !important;
+}
+
+.vo1 {
+  height: 28vh;
+  padding-top: 8.5rem;
+}
+
+.vo1 a {
+  font-size: 1rem;
+
+}
+
+.vo2 {
+  padding: 2rem !important;
+}
+
+.cp1 {
+  height: 28vh;
+  padding-top: 8.5rem;
+}
+ 
+
+.cp2 {
+  padding: 1rem !important;
+}
+
+.co1 {
+  height: 28vh;
+  padding-top: 8.5rem;
+}
+
+
+.co2 {
+  padding: 1rem !important;
+}
+
+.co2 h4{
+  padding-top: 1.3rem;
+}
+
+
+}
